@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Information</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Navigation menu: -->
+    <nav>
+        <!-- Navigation link to the home page -->
+        <a href="../index.html">Home</a>
+        <a href="../profile/index.html">Profile</a>
+        <a href="../projects/index.html">Projects</a>
+        <a href="index.html">Contact</a>
+        <a href="https://github.com/tigerkrittaphas" target="_blank">GitHub</a>
+    </nav>
 </head>
 <body>
-       <!-- Navigation menu: -->
-        <nav>
-            <!-- Navigation link to the home page -->
-            <a href="../index.html">Home</a>
-            <a href="../projects/index.html">Projects</a>
-            <a href="index.html">Contact</a>
-            <a href="https://github.com/tigerkrittaphas" target="_blank">GitHub</a>
-
-        </nav>
+    <h1>Contact Me</h1>
+    
+    <form action="mailto:136419686+tigerkrittaphas@users.noreply.github.com " method="get">
+        <label for="email">
+            Email:
+            <input id="email" name="email" type="email">
+        </label>
+        <label for="subject">
+            Subject:
+            <input id="subject" name="subject"  type="text">
+        </label>
+        <label for="body">
+            Message:
+            <textarea id="body" name="body"></textarea>
+        </label>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
